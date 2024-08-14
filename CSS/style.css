@@ -25,6 +25,8 @@ section{
     min-height: 100vh;
     padding: 9px 9%;
 }
+
+        /* --------------- This is Navbar section ---------------- */
 .header {
     position: fixed;
     top: 0;
@@ -57,6 +59,7 @@ section{
     color: var(--text-color);
     display: none;
 }
+        /* -----------------  This is home section ------------- */
 .home{
     display: flex;
     justify-content: center;
@@ -102,6 +105,7 @@ span{
     color: var(--second-bg-color);
     box-shadow: 0 0 1rem var(--main-color);
 }
+                                     /* -====-   this is btn icon -=====- */
 .btn{
     display: inline-block;
     padding: 1rem 2.8rem;
@@ -114,9 +118,54 @@ span{
     font-weight: 600;
     transition: .5s ease;
 }
-
-     /* ---------------   this is btn icon --------------- */
-
 .btn:hover{
     box-shadow: none;
+}
+        /* ----------------This is about sectionn --------------- */
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.about-img img{
+    width: 35vw;
+}
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+}
+.about-content h3{
+    font-size: 2.6rem;
+}
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+        /* ------------------ This is services css -------------- */
+.service h2 {
+    margin-bottom: 5rem;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .service-box{
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--bg-color);
 }
