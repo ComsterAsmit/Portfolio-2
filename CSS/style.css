@@ -65,8 +65,9 @@ section{
     justify-content: center;
     align-items: center;
 }
-.home-content img{
-    width: 35rem;
+.home .png{
+    width: 40rem;
+    border-radius: 40px;
 }
 .home-content h3 {
     font-size: 3.2rem;
@@ -134,6 +135,7 @@ span{
     width: 35vw;
 }
 .heading {
+    margin: 4rem 0 0 0 ;
     text-align: center;
     font-size: 4.5rem;
 }
@@ -251,4 +253,36 @@ span{
 .Portfolio-layer a i{
     font-size: 2rem;
     color: var(--second-bg-color);
+}
+
+/* -------------      This is contact section design ------------------ */
+.Contact h2{
+    margin-bottom: 3rem;
+}
+.Contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.Contact form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Contact form .input-box input,
+.Contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: .9rem;
+    margin: .7rem 0;
+}
+.Contact form .input-box input{
+    width: 49%;
+}
+.Contact form textarea{
+    resize: none;
 }
